@@ -1,86 +1,235 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="img/ai.png" />
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/encabezado.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/encabezado.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap"
+      rel="stylesheet"
+    />
     <title>Turing-IA</title>
-
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <section class="encabezado" id="sect1">
-            <video src="video.mp4" autoplay="true" muted="true" loop="true" poster="https://carontestudio.com/img/contacto.jpg"></video>
-            <nav class="menu contenedor">
-                <div class="logo">
-                    Turing-IA
-                </div>
-              <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="#">Nosotros</a></li>
-                <li><a href="#">
-                    <select name="Servicios" id="Servicios" class="desplegable">
-                        <a href="#"> <option value="Servicios">Servicios</option></a>
-                        <a href="#"> <option value="Busines Analyst">Busines Analyst</option></a>
-                        <a href="#"> <option value="Workshop">Workshop</option></a>
-                        <a href="#"> <option value="Capacitacion">Capacitacion</option></a>
-                        <a href="#"> <option value="Venta de Software">Venta de Software</option></a>
-                        <a href="#"> <option value="Hardware">Hardware</option></a>
-                        <a href="#"> <option value="Desarrollo de Software">Desarrollo de Software</option></a>
-                        <a href="#"> <option value="Balanced Scorecard">Balanced Scorecard</option></a>
-                    </select>
-                </a></li>
-                <li><a href="#">
-                    <select name="Tableau" id="Tableau" class="desplegable">
-                        <a href="#"> <option value="Busines Analyst">Tableau</option></a>
-                        <a href="#"> <option value="Desktop">Desktop</option></a>
-                        <a href="#"> <option value="Prep">Prep</option></a>
-                        <a href="#"> <option value="Clous">Cloud</option></a>
-                        <a href="#"> <option value="Server">Server</option></a>
-                        <a href="#"> <option value="Server Managment">Server Managment</option></a>
-                        <a href="#"> <option value="Data Managment">Data Managment</option></a>
-                    </select>
-                </a></li>
-                <li><a href="#">Portal</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contacto</a></li>
-                
-              </ul>
-            </nav>
+      <section class="encabezado" id="sect1">
+        <video
+          src="video.mp4"
+          autoplay="true"
+          muted="true"
+          loop="true"
+          poster="https://carontestudio.com/img/contacto.jpg"
+        ></video>
+        <nav class="menu contenedor">
+          <div class="logo">Turing-IA</div>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#">Nosotros</a></li>
+            <li>
+              <a href="#">
+                <select name="Servicios" id="Servicios" class="desplegable">
+                  <a href="#"> <option value="Servicios">Servicios</option></a>
+                  <a href="#">
+                    <option value="Busines Analyst">Busines Analyst</option></a
+                  >
+                  <a href="#"> <option value="Workshop">Workshop</option></a>
+                  <a href="#">
+                    <option value="Capacitacion">Capacitacion</option></a
+                  >
+                  <a href="#">
+                    <option value="Venta de Software">
+                      Venta de Software
+                    </option></a
+                  >
+                  <a href="#"> <option value="Hardware">Hardware</option></a>
+                  <a href="#">
+                    <option value="Desarrollo de Software">
+                      Desarrollo de Software
+                    </option></a
+                  >
+                  <a href="#">
+                    <option value="Balanced Scorecard">
+                      Balanced Scorecard
+                    </option></a
+                  >
+                </select>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <select name="Tableau" id="Tableau" class="desplegable">
+                  <a href="#">
+                    <option value="Busines Analyst">Tableau</option></a
+                  >
+                  <a href="#"> <option value="Desktop">Desktop</option></a>
+                  <a href="#"> <option value="Prep">Prep</option></a>
+                  <a href="#"> <option value="Clous">Cloud</option></a>
+                  <a href="#"> <option value="Server">Server</option></a>
+                  <a href="#">
+                    <option value="Server Managment">
+                      Server Managment
+                    </option></a
+                  >
+                  <a href="#">
+                    <option value="Data Managment">Data Managment</option></a
+                  >
+                </select>
+              </a>
+            </li>
+            <li><a href="#">Portal</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </nav>
 
-            <div class="redes-sociales">
-                
-                <img id="imgLinkedin" class="redes-imagen" src="img/linkedin.svg" alt="" srcset="">
-                <img id="imgInstagram" class="redes-imagen" src="img/istagram.svg" alt="" srcset="">
-                <img id="imgTwitter" class="redes-imagen" src="img/twitter.svg" alt="" srcset="">
-                <img id="ImgFacebook" class="redes-imagen" src="img/facebook.svg" alt="" srcset="">
-                
-            </div>
+        <div class="redes-sociales">
+          <img
+            id="imgLinkedin"
+            class="redes-imagen"
+            src="img/linkedin.svg"
+            alt=""
+            srcset=""
+          />
+          <img
+            id="imgInstagram"
+            class="redes-imagen"
+            src="img/istagram.svg"
+            alt=""
+            srcset=""
+          />
+          <img
+            id="imgTwitter"
+            class="redes-imagen"
+            src="img/twitter.svg"
+            alt=""
+            srcset=""
+          />
+          <img
+            id="ImgFacebook"
+            class="redes-imagen"
+            src="img/facebook.svg"
+            alt=""
+            srcset=""
+          />
+        </div>
 
-            <div class="mensaje-banner contenedor">
-                <h1>Bienvenido</h1>
-                <p>Hacemos los datos fáciles de usar</p>
-            </div>
+        <div class="mensaje-banner contenedor">
+          <h1>Bienvenido</h1>
+          <p>Hacemos los datos fáciles de usar</p>
+        </div>
 
-            <div class="contenedor informacion">
-                <h1>QUÉ REALIZAMOS</h1>
-                <p>Contribuimos con su empresa para mejorar la toma de decisiones a través de sus datos.</p>
-                <input class="btn-azul" id="btn-informacion" type="button" value="MÁS INFORMACIÓN &rarr;">
-            </div>
-
-        </section>
+        <div class="contenedor informacion">
+          <h1>QUÉ REALIZAMOS</h1>
+          <p>
+            Contribuimos con su empresa para mejorar la toma de decisiones a
+            través de sus datos.
+          </p>
+          <input
+            class="btn-azul"
+            id="btn-informacion"
+            type="button"
+            value="MÁS INFORMACIÓN &rarr;"
+          />
+        </div>
+      </section>
     </header>
     <body>
-        <div class="whatsapp"><img src="img/whatsapp.svg" width="129" height="145" /></div>
-        
-        
-    </body>
-    <footer>
+      <div class="whatsapp">
+        <img src="img/whatsapp.svg" width="129" height="145" />
+      </div>
 
-    </footer>
-</body>
+      <section class="contenedor">
+        <div class="contenedor-33 datos1"></div>
+
+        <div class="contenedor-33">
+          <h3 class="fuente-azul">LA MANERA IDEAL PARA MANEJAR TUS DATOS</h3>
+          <p class="fuente-negrita tamanio-30">
+            Somos el socio estratégico que necesitas para potenciar los datos de
+            tu organización. Contamos con más de 15 años de experiencia
+            brindando soluciones innovadoras, adaptadas a las necesidades de
+            nuestros clientes, en más de 10 industrias y diferentes áreas
+            funcionales.
+          </p>
+        </div>
+
+        <div class="contenedor-33 datos2"></div>
+      </section>
+      <section class="contraste">
+        <section class="contenedor tec">
+          <h3 class="fuente-azul">TECNOLOGIAS QUE UTILIZAMOS</h3>
+          <div class="tecnologias">
+            <img src="img/tecnoly-tableau.png" alt="" srcset="" />
+            <img src="img/salesforce.png" alt="" srcset="" />
+            <img src="img/pmi2.png" alt="" srcset="" />
+            <img src="img/scrum.png" alt="" srcset="" />
+          </div>
+        </section>
+      </section>
+
+      <section class="contenedor tec fuente-negrita">
+        <h3 class="fuente-azul">LO QUE TE OFRECEMOS</h3>
+
+        <div class="contenedor-img-info">
+          <img class="contenedor-img" src="img/BA.webp" alt="" srcset="" />
+          <div class="contenedor-info">
+            <h2>IMPLEMENTACIÓN DE PROYECTOS (BUSINESS ANALYST)</h2>
+            <p>Nuestra metodología de servicios se encuentra orientada en los estándares del Project Management Institute (PMI) ® e International Project Management Association (IPMA). Esto nos permite contar con las competencias para coordinar equipos de trabajo en el inicio, planeación, construcción, monitoreo y control de las actividades y recursos involucrados en un proyecto a partir de los objetivos y requerimientos de nuestro cliente.</p>
+            <input class="btn-azul" type="button" value="Ver mas " />
+          </div>
+        </div>
+
+        <div class="contenedor-img-info texto-primero">
+          <img class="contenedor-img" src="img/desarrollo.webp" alt="" srcset="" />
+          <div class="contenedor-info">
+            <h2>DESARROLLO DE APLICACIONES</h2>
+            <p>En un mundo moderno, con la cantidad de problemas y su complejidad cada vez es mayor, el desarrollo de aplicaciones, una herramienta para obtener soluciones precisas, dándole tareas repetitivas a la computadora y logrando así la "automatización" de procesos que todavía requieren la intervención de las personas en tareas repetitivas.</p>
+            <input class="btn-azul" type="button" value="Ver mas " />
+          </div>
+        </div>
+
+        <div class="contenedor-img-info">
+          <img class="contenedor-img" src="img/workshop.webp" alt="" srcset="" />
+          <div class="contenedor-info">
+            <h2>WORKSHOP (BLUE PRINT)</h2>
+            <p>Su estrategia debe abarcar la gestión de personas, procesos y cambios, incluida la identificación de casos de uso comercial inmediatos, la definición de roles, responsabilidades, el establecimiento de medidas para evaluar el éxito y el impacto.</p>
+            <input class="btn-azul" type="button" value="Ver mas " />
+          </div>
+        </div>
+
+        <div class="contenedor-img-info texto-primero">
+          <img class="contenedor-img" src="img/capacitacion.jpg" alt="" srcset="" />
+          <div class="contenedor-info">
+            <h2>CAPACITACIÓN</h2>
+            <p>Nuestra gama de cursos de Tableau incluye: Tableau Prep Tableau Desktop Visual Analytics Tableau Server Adicionalmente ofrecemos cursos sobre: Business Intelligence, Data Mining, Big Data, Data to Insight.</p>
+            <input class="btn-azul" type="button" value="Ver mas " />
+          </div>
+        </div>
+
+        <div class="contenedor-img-info">
+          <img class="contenedor-img" src="img/venta.webp" alt="" srcset="" />
+          <div class="contenedor-info">
+            <h2>VENTA DE SOFTWARE</h2>
+            <p>Nos dedicamos a la venta de licencias de software, podemos recomendarle los sistemas que de acuerdo a sus necesidades son más adecuados.</p>
+            <input class="btn-azul" type="button" value="Ver mas " />
+          </div>
+        </div>
+
+        <div class="contenedor-img-info texto-primero">
+            <img class="contenedor-img" src="img/hardware.webp" alt="" srcset="" />
+            <div class="contenedor-info">
+              <h2>VENTA DE HARDWARE</h2>
+              <p>Trabajamos con los mejores proveedores de México y tenemos la capacidad de cubrir cualquier necesidad que tenga de hardware. Redes, computadoras, impresoras y accesorios.</p>
+              <input class="btn-azul" type="button" value="Ver mas " />
+            </div>
+          </div>
+
+      </section>
+    </body>
+    <footer></footer>
+  </body>
 </html>

@@ -7,11 +7,28 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+.fuente-negrita{
+    color: #000000;
+}
+.fuente-azul{
+    color: #3c48f5;
+}
+.tamanio-30{
+    font-size: 28px;
+}
 
 .contenedor{
     display: flex;
     width: 90%;
     margin: 1% 5%;
+}
+.contenedor-33{
+    width: 33.3%;
+}
+
+.contraste{
+    background-color: #ced2fd;
+    width: 100%;
 }
 
 /*diseño imagen whatsapp*/
@@ -25,4 +42,57 @@ body{
 }
 .whatsapp img:hover{
     width: 60px;
+}
+
+/*imagenes datos*/
+.datos1{
+    background-image: url("/img/datos1.png");
+    background-repeat: no-repeat;
+}
+.datos2{
+    background-image: url("/img/datos.webp");
+    
+}
+
+
+/* Apartado - Tecnoñogoas que utilizamos*/
+.tec{
+    flex-wrap: wrap;
+}
+.tecnologias{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tecnologias img{
+    width: 20%;
+    margin-bottom: 25px;
+}
+
+.texto-primero{
+    flex-direction: row-reverse;
+
+}
+/*Lo que ofrecemos*/
+
+.contenedor-img-info{
+    width: 100%;
+    display: flex;
+    margin: 8px 0;
+    border-top: 2px solid #757eff;
+    padding-top: 5px;
+
+}
+
+.contenedor-img{
+    width: 40%;
+}
+
+.contenedor-info{
+    width: 50%;
+    margin-left: 5%;
+}
+.contenedor-info p{
+    font-size: 20px;
 }
