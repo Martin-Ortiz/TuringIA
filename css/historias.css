@@ -1,0 +1,41 @@
+/*Nuestros clientes*/
+.historias{
+    color: #000000;
+    flex-direction: column;
+}
+.clientes{
+    display: flex;
+    justify-content: space-between;
+}
+.tarjeta{
+    width: 40%;
+    height: 350px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+.texto p{
+    width: 50%;
+    border: 2px solid #4a47f1;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: aliceblue;
+    font-weight: bolder;
+    
+}
+
+.texto{
+    height: 90%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.jpmorgan{
+    background-image: url("../img/historias/jpmorgan.jpg");
+    
+}
+.grupo-petersen{
+    background-image: url("../img/historias/grupopeterson.jpg");
+    
+}
+
