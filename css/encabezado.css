@@ -1,0 +1,141 @@
+
+  .encabezado{
+    height: 100vh;
+    }
+
+  #sect1{
+    background-color: #3333337d;
+    position: relative;
+    overflow: hidden;
+  }
+  video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+  }
+  .menu{
+    font-size: 20px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo{
+    width: 30%;
+    font-size: 40px;
+}
+.logo:hover{
+    color: #3c48f5;
+    transition: all 1s ease;
+}
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+ 
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    color: #3c48f5;
+    transition: all 1s ease;
+}
+
+
+.banner{
+    height: 102vh;
+}
+
+  .desplegable{
+    background-color: transparent;
+    font-size: 20px;
+    color: white;
+    border: none;
+    width: 130px;
+  }
+  select option{
+    background: rgb(11, 11, 26);
+    border: none;
+  }
+  select option:hover{
+    background: none;
+    color: #3c48f5;
+  }
+  select:hover{
+    color: #3c48f5;
+  }
+
+  .redes-sociales{
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+    margin-right: 10%;
+  }
+
+  .redes-imagen{
+    padding: 1px 3px;
+    width: 30px;
+    filter: invert(0.9);
+   
+  }
+  .redes-imagen:hover{
+    filter: contrast(60%) sepia(1) hue-rotate(200deg) saturate(1000%);
+  }
+
+  .mensaje-banner{
+    width: 30%;
+    flex-direction: column;
+  }
+  .mensaje-banner h1{
+    font-size: 40px;
+    margin-bottom: 5px;
+    
+  }
+  .mensaje-banner p{
+    font-size: 30px;
+    margin: 0;
+  }
+
+  
+  .informacion{
+    flex-direction: column;
+  }
+  .informacion h1{
+    margin: 60px 0 0 0;
+    color: #3c48f5;
+  }
+  .informacion p{
+    font-size: 40px;
+  }
+  .btn-azul{
+    width: 30%;
+    height: 30px;
+    background-color: #3c48f5;
+    font-size: 18px;
+    color: #ffffff;
+    border: none;
+  }
+  .btn-azul:hover{
+    transition: all 0.8s ease;
+    background-color: #ffffff;
+    color: #3c48f5;
+  }
+  
