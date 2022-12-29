@@ -22,9 +22,11 @@
     width: 31%;
 }
 .tarjeta:hover .texto p{
+    transition: all 1.1s ease;
     background-color: #3c48f5;
     color: #ffffff;
     font-weight: 300;
+
 }
 .tarjeta label{
     padding: 5px;
