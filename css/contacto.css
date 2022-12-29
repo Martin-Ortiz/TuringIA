@@ -42,10 +42,10 @@ form{
 form input{
     width: 100%;
     margin: 5px 0;
-    height: 20px;
+    height: 30px;
     border: #3e3e41 1px solid;
     border-radius: 3px;
-    font-size: 16px;
+    font-size: 17px;
 }
 textarea{
     width: 100%;
