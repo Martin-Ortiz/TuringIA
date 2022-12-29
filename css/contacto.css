@@ -3,7 +3,7 @@
     flex-direction: column;
     border-top: 2px solid blue;
     margin-top: 40px;
-    height: 100vh;
+    height: 120vh;
 }
 .contacto-elementos{
     height: 100%;
@@ -18,7 +18,7 @@
 }
 iframe{
     width: 97%;
-    height: 180%;
+    height: 170%;
     padding: 1% 2%;
 }
 .form-contacto{
@@ -44,6 +44,8 @@ form input{
     width: 100%;
     margin: 5px 0;
     height: 20px;
+    border: #3e3e41 1px solid;
+    border-radius: 3px;
 }
 textarea{
     width: 100%;

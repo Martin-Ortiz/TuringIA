@@ -1,0 +1,34 @@
+footer{
+    background-color: #3c48f5;
+    color: #ffffff;
+}
+.pie{
+    display: flex;
+    flex-wrap: wrap;
+    height: 95vh;
+}
+.pie div{
+    width: calc(25% - 10px);
+    padding: 5px;
+}
+.suscribir{
+    display: flex;
+}
+.email-pie{
+    width: auto;
+}
+.btn-pie{
+    width: auto;
+    font-size: 15px;
+}
+.redes-pie{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.copyright{
+    width: 100%;
+    height: 5vh;
+    text-align: center;
+}
