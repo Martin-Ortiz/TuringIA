@@ -5,37 +5,91 @@
 }
 .clientes{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    font-weight: bold;
+    color: #2c2c2c;
 }
 .tarjeta{
-    width: 40%;
+    width: 30%;
     height: 350px;
     background-size: 100%;
     background-repeat: no-repeat;
-    
+    margin-top: 30px;
+    border-radius: 20px;   
 }
-.texto p{
-    width: 50%;
-    border: 2px solid #4a47f1;
-    border-radius: 10px;
+.tarjeta:hover{
+    width: 31%;
+}
+.tarjeta:hover .texto p{
+    background-color: #3c48f5;
+    color: #ffffff;
+    font-weight: 300;
+}
+.tarjeta label{
     padding: 5px;
+    border: none;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
     background-color: aliceblue;
-    font-weight: bolder;
-    
 }
-
 .texto{
-    height: 90%;
+    height: 98%;
     display: flex;
     align-items: flex-end;
 }
 
-.jpmorgan{
-    background-image: url("../img/historias/jpmorgan.jpg");
+.texto p{
+    width: 50%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 5px;
+    background-color: rgb(244, 247, 255);
     
-}
-.grupo-petersen{
-    background-image: url("../img/historias/grupopeterson.jpg");
     
 }
 
+
+
+/*imajenes de fondo - clientes*/
+.jpmorgan{
+    background-image: url("../img/historias/jpmorgan.jpg");
+   
+}
+
+.grupo-petersen{
+    background-image: url("../img/historias/grupopeterson.jpg");    
+}
+
+.grupo-petersen label{
+    background-color: antiquewhite;
+    
+}
+
+.redhat{
+    background-image: url("../img/historias/redhat.jpg");
+}
+.redhat label{
+    color: #ffffff;
+    background-color: #ff0000;
+}
+
+.verizon{
+    background-image: url("../img/historias/verizon.jpg");
+}
+.verizon label{
+    color: #ff0000;
+}
+.whole-foods{
+    background-image: url("../img/historias/wholefoods.jpg");
+}
+.whole-foods label{
+    color: #ffffff;
+    background-color: #1a7a1f;
+}
+.mondelez-int{
+    background-image: url("../img/historias/mondelezteaser.jpg");
+}
+.mondelez-int label{
+    background-color: #f5baba;
+}
