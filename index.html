@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="css/historias.css" />
+    <link rel="stylesheet" href="css/contacto.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap"
       rel="stylesheet"
@@ -139,7 +140,7 @@
         </div>
       </section>
     </header>
-    <body>
+    <main>
       <div class="whatsapp">
         <img src="img/whatsapp.svg" width="129" height="145" />
       </div>
@@ -307,34 +308,138 @@
           <div class="redhat tarjeta">
             <label for="">Red Hat</label>
             <div class="texto">
-              <p>Red Hat adopta el Blueprint de Tableau y Tableau Online, y profundiza en la cultura de datos con más de 4,500 empleados en menos de un año.</p>
+              <p>
+                Red Hat adopta el Blueprint de Tableau y Tableau Online, y
+                profundiza en la cultura de datos con más de 4,500 empleados en
+                menos de un año.
+              </p>
             </div>
           </div>
 
           <div class="verizon tarjeta">
             <label for="">Verizon</label>
             <div class="texto">
-              <p>Verizon usa Tableau para reducir las llamadas de soporte en un 43% y asi mejorar la experiencia del cliente. </p>
+              <p>
+                Verizon usa Tableau para reducir las llamadas de soporte en un
+                43% y asi mejorar la experiencia del cliente.
+              </p>
             </div>
           </div>
 
           <div class="whole-foods tarjeta">
             <label for="">Whole Foods</label>
             <div class="texto">
-              <p>Whole Foods Market democratiza el acceso a los datos en sus 460 tiendas para 18,000 empleados gracias a Tableau.</p>
+              <p>
+                Whole Foods Market democratiza el acceso a los datos en sus 460
+                tiendas para 18,000 empleados gracias a Tableau.
+              </p>
             </div>
           </div>
 
           <div class="mondelez-int tarjeta">
             <label for="">Mondelez Internacional</label>
             <div class="texto">
-              <p>Mondelez International digitaliza la adquisición para integrar más de 160 campos de datos, 28,000 provedores y generar millones en ahorro de costos.</p>
+              <p>
+                Mondelez International digitaliza la adquisición para integrar
+                más de 160 campos de datos, 28,000 provedores y generar millones
+                en ahorro de costos.
+              </p>
             </div>
           </div>
-
         </div>
       </section>
-    </body>
+
+      <section class="contenedor contacto">
+        <h1>CONTÁCTO</h1>
+        <div class="contacto-elementos">
+          <div class="ubicacion">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d940.8343951809946!2d-99.17200237081956!3d19.397814864159084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff7769001035%3A0x8908d745e6168858!2sTuring%20-%20Inteligencia%20Artificial!5e0!3m2!1ses!2smx!4v1672332620977!5m2!1ses!2smx"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+
+          <div class="form-contacto">
+            <input
+              class="btn-azul btn-form"
+              type="button"
+              value="Ponte en contacto con un especialista"
+            />
+            <form action="#">
+              <h1>O déjanos tus datos y nosotros nos pondremos en contacto.</h1>
+              <label for="">Envíanos tus datos</label>
+              <input
+                type="text"
+                name="Nombre"
+                id="nombre"
+                placeholder="Nombre"
+              />
+              <input
+                type="email"
+                name="Email"
+                id="email"
+                placeholder="Correo"
+              />
+              <input
+                type="number"
+                name="telefono"
+                id="NumTelefono"
+                placeholder="Número de Telefono"
+              />
+              <input
+                type="text"
+                name="puest"
+                id="puesto"
+                placeholder="Puesto (opcional)"
+              />
+              <input
+                type="text"
+                name="empresa"
+                id="empresa"
+                placeholder="Empresa (opcional)"
+              />
+              <textarea
+                name=""
+                id="mensaje"
+                cols="30"
+                rows="5"
+                placeholder="Escribe tu mensaje aquí (opcional)"
+              ></textarea>
+              <button type="submit" class="btn-azul btn-form">Enviar</button>
+            </form>
+            <div class="info-contacto">
+
+              <div class="contenido-info">
+                <img src="img/informacionContacto/open.png" alt="">
+                <label for="">Horario</label>
+                <p>Lunes a Viernes
+                  7 a.m. - 7 p.m.
+                  UTC-6</p>
+              </div>
+              <div class="contenido-info">
+                <img src="img/informacionContacto/mapa.png" alt="">
+                <label for="">Dirección</label>
+                <p>Av. Insurgentes Sur 601,Nápoles, Benito Juárez, 03810 Ciudad de México, CDMX</p>
+              </div>
+              <div class="contenido-info">
+                <img src="img/informacionContacto/correo.png" alt="">
+                <label for="">Email</label>
+                <p>contacto@turing-ia.com</p>
+              </div>
+              <div class="contenido-info">
+                <img src="img/informacionContacto/telefono.png" alt="">
+                <label for="">Llámanos</label>
+                <p>+52 (722) 533-6638</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
