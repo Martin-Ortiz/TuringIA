@@ -7,7 +7,12 @@ body{
     @import url('https://fonts.googleapis.com/css2? familia= Roboto:ital,peso@0,400;0,700;1,300 & display=swap');
     font-family: 'Roboto', sans-serif;
 }
-
+p{
+    font-size: 16px;
+}
+label{
+    font-size: 16px;
+}
 .fuente-negrita{
     color: #000000;
 }

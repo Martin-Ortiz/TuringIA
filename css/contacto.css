@@ -46,6 +46,7 @@ form input{
     height: 20px;
     border: #3e3e41 1px solid;
     border-radius: 3px;
+    font-size: 16px;
 }
 textarea{
     width: 100%;
@@ -76,6 +77,7 @@ textarea{
 }
 .contenido-info label{
     font-weight: bolder;
+    font-size: 10px;
 }
 .contenido-info p{
     color: #282829;
