@@ -1,3 +1,4 @@
+
 body{
     
     margin: 0;
@@ -63,11 +64,11 @@ body{
 
 /*imagenes datos*/
 .datos1{
-    background-image: url("/img/datos1.png");
+    background-image: url("../img/datos1.png");
     background-repeat: no-repeat;
 }
 .datos2{
-    background-image: url("/img/datos.webp");
+    background-image: url("../img/datos.webp");
     
 }
 
