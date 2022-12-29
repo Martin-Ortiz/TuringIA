@@ -1,15 +1,11 @@
-
 body{
-    
     margin: 0;
     padding: 0;
     color: #ffffff;
     @import url('https://fonts.googleapis.com/css2? familia= Roboto:ital,peso@0,400;0,700;1,300 & display=swap');
     font-family: 'Roboto', sans-serif;
 }
-p{
-    font-size: 16px;
-}
+
 label{
     font-size: 16px;
 }
@@ -117,5 +113,5 @@ label{
     margin-left: 5%;
 }
 .contenedor-info p{
-    font-size: 20px;
+    font-size: 25px;
 }
