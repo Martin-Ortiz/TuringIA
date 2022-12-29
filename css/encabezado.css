@@ -20,6 +20,7 @@
     font-size: 20px;
     margin-top: 40px;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
 
 }
@@ -85,7 +86,7 @@ li a:hover:not(.active) {
   }
 
   .redes-sociales{
-    width: 95%;
+    
     display: flex;
     justify-content: end;
     flex-direction: row;
