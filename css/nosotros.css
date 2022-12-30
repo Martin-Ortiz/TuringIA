@@ -1,0 +1,16 @@
+.informacion{
+    width: 30%;
+}
+main{
+    color: black;
+    font-size: 18px;
+}
+.informacion-qs img{
+    width: 40%;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+    margin-right: 20px;
+}
+.quienes-somos{
+    width: 55%;
+}

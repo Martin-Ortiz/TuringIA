@@ -90,6 +90,7 @@ li a:hover:not(.active) {
     display: flex;
     justify-content: end;
     flex-direction: row;
+    margin-right: 5%;
   }
 
   .redes-imagen{
