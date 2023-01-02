@@ -89,14 +89,14 @@ li a:hover:not(.active) {
   }
 
   .redes-sociales{
-    
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     flex-direction: row;
-    margin-right: 5%;
+    margin:1% 5%;
   }
 
   .redes-imagen{
+    margin: 0;
     padding: 1px 3px;
     width: 30px;
     filter: invert(0.9);
