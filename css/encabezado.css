@@ -101,6 +101,7 @@ li a:hover:not(.active) {
   }
   .redes-imagen:hover{
     filter: contrast(60%) sepia(1) hue-rotate(200deg) saturate(1000%);
+    cursor: pointer;
   }
 
   .mensaje-banner{

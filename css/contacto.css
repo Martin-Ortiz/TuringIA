@@ -81,3 +81,11 @@ textarea{
 .contenido-info p{
     color: #282829;
 }
+/*Validacion de formulario*/
+form span{
+    color: #bb2a2a;
+}
+
+.inactivo{
+    background-color: gray;
+}

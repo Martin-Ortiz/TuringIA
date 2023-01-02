@@ -17,6 +17,22 @@ footer{
 .pie label{
     font-size: 18px;
 }
+.pie label:hover{
+    font-size: 20px;
+}
+/*Turing inteligencia Artificial*/
+.turing-ia a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/*Mapa del sitio*/
+.mapa-sitio label:hover{
+    cursor: pointer;
+}
+.nuestros-servicios label:hover{
+    cursor: pointer;
+}
 .suscribir{
     display: flex;
 }
@@ -32,6 +48,10 @@ footer{
     padding: 0;
     display: flex;
     justify-content: space-between;
+}
+#aviso-priv:hover{
+    cursor: pointer;
+    color: #b6bbf8;
 }
 .copyright{
     width: 100%;

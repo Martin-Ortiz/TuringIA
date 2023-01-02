@@ -32,7 +32,7 @@
           <div class="logo">TURING-IA</div>
           <ul>
             <li><a id="menu-inicio" href="#">Inicio</a></li>
-            <li><a id="menu-nosotros" href="componentes/nosotros.html">Nosotros</a></li>
+            <li><a id="menu-nosotros" href="nosotros.html">Nosotros</a></li>
             <li>
               <a href="#">
                 <select name="Servicios" id="menu-servicios" class="desplegable">
@@ -95,29 +95,25 @@
             id="imgLinkedin"
             class="redes-imagen"
             src="img/linkedin.svg"
-            alt=""
-            srcset=""
+            alt="Enlace al Perfil de linkedin"
           />
           <img
             id="imgInstagram"
             class="redes-imagen"
             src="img/istagram.svg"
-            alt=""
-            srcset=""
+            alt="Enlace al perfil de instagram"
           />
           <img
             id="imgTwitter"
             class="redes-imagen"
             src="img/twitter.svg"
-            alt=""
-            srcset=""
+            alt="Enlace al perfil de twitter"
           />
           <img
             id="ImgFacebook"
             class="redes-imagen"
             src="img/facebook.svg"
-            alt=""
-            srcset=""
+            alt="Enlace al perfil de facebook"
           />
         </div>
 
@@ -143,7 +139,7 @@
     </header>
     <main>
       <div class="whatsapp">
-        <img src="img/whatsapp.svg" width="129" height="145" />
+        <a href="https://api.whatsapp.com/send?phone=527225336638&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n."><img src="img/whatsapp.svg" width="129" height="145" /></a> 
       </div>
 
       <section class="contenedor">
@@ -378,18 +374,21 @@
                 id="nombre"
                 placeholder="Nombre"
               />
+              <span id="spNombre"></span>
               <input
                 type="email"
                 name="Email"
                 id="email"
                 placeholder="Correo"
               />
+              <span id="spCorreo"></span>
               <input
-                type="number"
+                type="tel"
                 name="telefono"
-                id="NumTelefono"
+                id="numTelefono"
                 placeholder="Número de Telefono"
               />
+              <span id="spTelefono"></span>
               <input
                 type="text"
                 name="puest"
@@ -409,7 +408,7 @@
                 rows="5"
                 placeholder="Escribe tu mensaje aquí (opcional)"
               ></textarea>
-              <button type="submit" class="btn-azul btn-form">Enviar</button>
+              <button id="btnEnviar" type="submit" class="btn-azul btn-form">Enviar</button>
             </form>
             <div class="info-contacto">
               <div class="contenido-info">
@@ -428,12 +427,12 @@
               <div class="contenido-info">
                 <img src="img/informacionContacto/correo.png" alt="" />
                 <label for="">Email</label>
-                <p>contacto@turing-ia.com</p>
+                <p><a href="mailto:contacto@turing-ia.com">contacto@turing-ia.com</a></p>
               </div>
               <div class="contenido-info">
                 <img src="img/informacionContacto/telefono.png" alt="" />
                 <label for="">Llámanos</label>
-                <p>+52 (722) 533-6638</p>
+                <p><a href="tel:+527229369365">+52 (722) 936-96-65</a> </p>
               </div>
             </div>
           </div>
@@ -442,7 +441,7 @@
     </main>
     <footer>
       <section class="contenedor pie">
-        <div>
+        <div class="turing-ia">
           <h1>Turing Inteligencia Artificial</h1>
           <p>
             Av. Insurgentes 601 Col. Nápoles, Benito Juárez Ciudad de México,
@@ -450,21 +449,21 @@
           </p>
           <p>
             <strong>Téfono de contacto:</strong><br />
-            +52 (722) 936-96-65<br /><br />
+            <a href="tel:+527229369365">+52 (722) 936-96-65</a> <br /><br />
             <strong>Correo electrónico:</strong><br />
-            contacto@turing-ia.com
+            <a href="mailto:contacto@turing-ia.com">contacto@turing-ia.com</a> 
           </p>
         </div>
 
-        <div>
+        <div class="mapa-sitio">
           <h1>Mapa de sitio</h1>
-          <label for="inicio">-inicio</label><br /><br />
+          <label for="">-inicio</label><br /><br />
           <label for="">-Nosotros</label><br /><br />
           <label for="">-Servicios</label><br /><br />
           <label for="">-Tableau</label><br /><br />
         </div>
 
-        <div>
+        <div class="nuestros-servicios">
           <h1>Nuestros servicios</h1>
           <label for="">-Implementación de proyectos (Bussines Analyst)</label
           ><br /><br />
@@ -491,35 +490,32 @@
           <h2>Siguenos en nuestras redes:</h2>
           <div class="redes-sociales redes-pie">
             <img
-              id="imgLinkedin"
+              id="imgLinkedin1"
               class="redes-imagen"
               src="img/linkedin.svg"
-              alt=""
-              srcset=""
+              alt="Enlace al perfil de linkedin"
             />
             <img
-              id="imgInstagram"
+              id="imgInstagram1"
               class="redes-imagen"
               src="img/istagram.svg"
-              alt=""
-              srcset=""
+              alt="Enlace al perfil de instagram"
             />
             <img
-              id="imgTwitter"
+              id="imgTwitter1"
               class="redes-imagen"
               src="img/twitter.svg"
-              alt=""
-              srcset=""
+              alt="Enlace al perfil de twitter"
             />
             <img
-              id="ImgFacebook"
+              id="ImgFacebook1"
               class="redes-imagen"
               src="img/facebook.svg"
-              alt=""
-              srcset=""
+              alt="Enlace al perfil de facebook"
+              
             />
           </div>
-          <h2>Aviso de privasidad</h2>
+          <h2 id="aviso-priv">Aviso de privacidad</h2>
         </div>
       </section>
       <section class="copyright">
@@ -529,5 +525,6 @@
         >
       </section>
     </footer>
+    <script src="js/app.js"></script>
   </body>
 </html>
