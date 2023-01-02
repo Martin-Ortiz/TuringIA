@@ -29,6 +29,9 @@
     width: 30%;
     font-size: 40px;
 }
+.img-menu{
+  display: none;
+}
 .logo:hover{
     color: #3c48f5;
     transition: all 1s ease;

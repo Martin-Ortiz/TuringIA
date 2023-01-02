@@ -1,98 +1,62 @@
 /*Nuestros clientes*/
-.historias{
-    color: #000000;
+.flip-card {
+    background-color: transparent;
+    width: 14.66%;
+    height: 300px;
+    perspective: 1000px;
+    font-family: sans-serif;
+    margin: 1%;
+  }
+  
+  .title {
+    font-size: 1.5em;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2);
+    position: absolute;
+    display: flex;
     flex-direction: column;
-}
-.clientes{
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 1rem;
+  }
+  
+  .flip-card-front {
+    background: #366fff;
+    color: white;
+  }
+  
+  .flip-card-back {
+    background: #366fff;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+ img{
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 10px;
+ }
+  .historias-client{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    font-weight: bold;
-    color: #2c2c2c;
-}
-.tarjeta{
-    width: 30%;
-    height: 350px;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    margin-top: 30px;
-    border-radius: 20px;   
-}
-.tarjeta:hover{
-    width: 31%;
-}
-.tarjeta:hover .texto p{
-    transition: all 1.1s ease;
-    background-color: #3c48f5;
-    color: #ffffff;
-    font-weight: 300;
-
-}
-.tarjeta label{
-    padding: 5px;
-    border: none;
-    border-top-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    background-color: aliceblue;
-}
-.texto{
-    height: 98%;
-    display: flex;
-    align-items: flex-end;
-}
-
-.texto p{
-    width: 50%;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    padding: 5px;
-    font-size: 16px;
-    background-color: rgb(244, 247, 255);
-    
-    
-}
-
-
-
-/*imajenes de fondo - clientes*/
-.jpmorgan{
-    background-image: url("../img/historias/jpmorgan.jpg");
-   
-}
-
-.grupo-petersen{
-    background-image: url("../img/historias/grupopeterson.jpg");    
-}
-
-.grupo-petersen label{
-    background-color: antiquewhite;
-    
-}
-
-.redhat{
-    background-image: url("../img/historias/redhat.jpg");
-}
-.redhat label{
-    color: #ffffff;
-    background-color: #ff0000;
-}
-
-.verizon{
-    background-image: url("../img/historias/verizon.jpg");
-}
-.verizon label{
-    color: #ff0000;
-}
-.whole-foods{
-    background-image: url("../img/historias/wholefoods.jpg");
-}
-.whole-foods label{
-    color: #ffffff;
-    background-color: #1a7a1f;
-}
-.mondelez-int{
-    background-image: url("../img/historias/mondelezteaser.jpg");
-}
-.mondelez-int label{
-    background-color: #f5baba;
-}
+  }

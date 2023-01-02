@@ -6,7 +6,138 @@
 
 /*---Mobile---*/
 @media only screen and (max-device-width: 767px) {
-    
+ .contenedor{
+    width: 95%;
+    flex-wrap: wrap;
+    margin: 1% 2.5%;
+ }
+.encabezado{
+    height: auto;
+    background-color: black;
+}
+ /*Barra de menu*/
+ .menu{
+    flex-wrap: wrap;
+ }
+ 
+ .logo{
+    font-size: 30px;
+    width: 50%;
+ }
+ .img-menu{
+    margin: 0;
+    width: 30px;
+    height: 30px;
+    display: flex;
+ }
+.ocultar{
+    display: none;
+}
+ ul{
+    color: #ffffff;
+    background-color: rgb(47, 47, 51);
+    border-top: 1px solid wheat;
+    opacity: 0.8;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+ }
+ ul li{
+    font-size: 20px;
+    width: 100%;
+    border-bottom: 1px solid rgb(75, 75, 75);
+ }
+ 
+ ul li a{
+    padding: 5px 5px;
+ }
+ ul li a select{
+    width: auto;
+ }
+ ul li a select option{
+    font-size: 16px;
+    background: rgb(112, 111, 111);
+    color: #ffffff;
+ }
 
+ .redes-top{
+    display: none;
+ }
 
+ /*que realizamos*/
+ .informacion p{
+    font-size: 25px;
+ }
+ .btn-azul{
+    width: 50%;
+ }
+
+ /*Seccion- La manera ideal de manejar tus datos*/
+ .datos1{
+    display: none;
+ } 
+ .datos2{
+    background-position: center;
+    height: 200px;
+ }
+ .tamanio-28{
+    font-size: 18px;
+ }
+ .contenedor-33{
+    width: 100%;
+ }
+ .fuente-azul{
+    font-size: 25px;
+ }
+ .contenedor-img-info{
+    height: auto;
+    flex-wrap: wrap;
+ }
+.contenedor-img{
+    width: 100%;
+}
+.contenedor-info{
+    margin: 0;
+    width: 100%;
+}
+.contenedor-info p{
+    font-size: 18px;
+}
+
+/*Seccion - Historias de clientes*/
+.flip-card{
+    width: 100%;
+    height: 350px;
+    margin: 2% 0;
+}
+
+/*Seccion de contacto*/
+.ubicacion{
+    width: 100%;
+    height: auto;
+}
+iframe{
+    height: 350px;
+}
+.form-contacto{
+    width: 100%;
+    margin: 2% 0;
+}
+.btn-form{
+    width: 100%;
+}
+.info-contacto{
+    justify-content: space-between;
+}
+/*Pie de página*/
+.pie{
+    height: auto;
+}
+.pie div{
+    width: 100%;
+}
+.copyright{
+    height: 20px;
+}
 }

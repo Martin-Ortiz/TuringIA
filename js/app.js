@@ -128,7 +128,21 @@ function activarEnviar(validarEnviar) {
         }
     }
 }
+/**Funcion para mostrar y ocultar menu */
+const menu = document.querySelector(".img-menu");
+const opcionesMenu = document.getElementById("opcionesMenu");
 
+menu.addEventListener('click', function(event){
+    mostrarMenu();
+})
+
+function mostrarMenu(){
+    if (opcionesMenu.classList.contains("ocultar")) {
+        opcionesMenu.classList.remove("ocultar")
+    } else {
+        opcionesMenu.classList.add("ocultar")
+    }
+}
 
 //funcion para redireccionar hacia un link
 function redireccionarLink(link) {

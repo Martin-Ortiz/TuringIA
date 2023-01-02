@@ -5,17 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="img/ai.png" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/encabezado.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href="css/historias.css" />
-    <link rel="stylesheet" href="css/contacto.css" />
-    <link rel="stylesheet" href="css/footer.css" />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/encabezado.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="css/historias.css" />
+    <link rel="stylesheet" href="css/contacto.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/responsive.css">
+
+    
     <title>Turing-IA</title>
   </head>
   <body>
@@ -26,11 +30,12 @@
           autoplay="true"
           muted="true"
           loop="true"
-          poster="https://carontestudio.com/img/contacto.jpg"
+          
         ></video>
         <nav class="menu contenedor">
-          <div class="logo">TURING-IA</div>
-          <ul>
+          <div class="logo">TURING-IA</div> 
+          <img class="img-menu" src="img/menu.png" alt="" srcset="">
+          <ul id="opcionesMenu" class="ocultar">
             <li><a id="menu-inicio" href="#">Inicio</a></li>
             <li><a id="menu-nosotros" href="nosotros.html">Nosotros</a></li>
             <li>
@@ -90,7 +95,7 @@
           </ul>
         </nav>
 
-        <div class=" contenedor redes-sociales">
+        <div class=" contenedor redes-sociales redes-top">
           <img
             id="imgLinkedin"
             class="redes-imagen"
@@ -283,67 +288,91 @@
 
       <section class="historias contenedor">
         <h2 class="fuente-azul">HISTORIAS DE CLIENTES</h2>
-        <div class="clientes">
-          <div class="jpmorgan tarjeta">
-            <label for="">JPMorgan Chase & Co</label>
-            <div class="texto">
-              <p>
-                JPMorgan Chase elige Tableau para ofrecer análisis de
-                autoservicio y seguir el vertiginoso ritmo de los cambios en el
-                sector
-              </p>
-            </div>
-          </div>
+      </section>
 
-          <div class="grupo-petersen tarjeta">
-            <label for="">Grupo-Petersen</label>
-            <div class="texto">
-              <p>Grupo Petersen crea una cultura de datos con Tableau</p>
+      <section class="contenedor historias-client">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="img/historias/jpmorgan.jpg" alt="" srcset="" />
+              <p class="title">JPMorgan Chase & Co</p>
             </div>
-          </div>
-
-          <div class="redhat tarjeta">
-            <label for="">Red Hat</label>
-            <div class="texto">
+            <div class="flip-card-back">
               <p>
-                Red Hat adopta el Blueprint de Tableau y Tableau Online, y
-                profundiza en la cultura de datos con más de 4,500 empleados en
-                menos de un año.
-              </p>
-            </div>
-          </div>
-
-          <div class="verizon tarjeta">
-            <label for="">Verizon</label>
-            <div class="texto">
-              <p>
-                Verizon usa Tableau para reducir las llamadas de soporte en un
-                43% y asi mejorar la experiencia del cliente.
-              </p>
-            </div>
-          </div>
-
-          <div class="whole-foods tarjeta">
-            <label for="">Whole Foods</label>
-            <div class="texto">
-              <p>
-                Whole Foods Market democratiza el acceso a los datos en sus 460
-                tiendas para 18,000 empleados gracias a Tableau.
-              </p>
-            </div>
-          </div>
-
-          <div class="mondelez-int tarjeta">
-            <label for="">Mondelez Internacional</label>
-            <div class="texto">
-              <p>
-                Mondelez International digitaliza la adquisición para integrar
-                más de 160 campos de datos, 28,000 provedores y generar millones
-                en ahorro de costos.
+                JPMorgan Chase elige Tableau para ofrecer análisis de autoservicio
+                y seguir el vertiginoso ritmo de los cambios en el sector
               </p>
             </div>
           </div>
         </div>
+  
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="img/historias/grupopeterson.jpg" alt="" srcset="" />
+              <p class="title">Grupo Petersen</p>
+            </div>
+            <div class="flip-card-back">
+              <p>
+                  Grupo Petersen crea una cultura de datos con Tableau
+              </p>
+            </div>
+          </div>
+        </div>
+  
+      <div class="flip-card">
+          <div class="flip-card-inner">
+              <div class="flip-card-front">
+                  <img src="img/historias/redhat.jpg" alt="" srcset="">
+                  <p class="title">Red Hat</p>
+              </div>
+              <div class="flip-card-back">
+                  <p>Red Hat adopta el Blueprint de Tableau y Tableau Online, y
+                      profundiza en la cultura de datos con más de 4,500 empleados en
+                      menos de un año.</p>
+              </div>
+          </div>
+      </div>
+  
+      <div class="flip-card">
+          <div class="flip-card-inner">
+              <div class="flip-card-front">
+                  <img src="img/historias/verizon.jpg" alt="" srcset="">
+                  <p class="title">Verizon</p>
+              </div>
+              <div class="flip-card-back">
+                  <p>Verizon usa Tableau para reducir las llamadas de soporte en un
+                      43% y asi mejorar la experiencia del cliente.</p>
+              </div>
+          </div>
+      </div>
+  
+      <div class="flip-card">
+          <div class="flip-card-inner">
+              <div class="flip-card-front">
+                  <img src="img/historias/wholefoods.jpg" alt="" srcset="">
+                  <p class="title">Whole Foods</p>
+              </div>
+              <div class="flip-card-back">
+                  <p>Whole Foods Market democratiza el acceso a los datos en sus 460
+                      tiendas para 18,000 empleados gracias a Tableau.</p>
+              </div>
+          </div>
+      </div>
+  
+      <div class="flip-card">
+          <div class="flip-card-inner">
+              <div class="flip-card-front">
+                  <img src="img/historias/mondelezteaser.jpg" alt="" srcset="">
+                  <p class="title">Mondelez Internacional</p>
+              </div>
+              <div class="flip-card-back">
+                  <p>Mondelez International digitaliza la adquisición para integrar
+                      más de 160 campos de datos, 28,000 provedores y generar millones
+                      en ahorro de costos.</p>
+              </div>
+          </div>
+      </div>
       </section>
 
       <section class="contenedor contacto">
