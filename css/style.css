@@ -37,7 +37,7 @@ label{
 .btn-azul{
     width: 30%;
     height: 30px;
-    background-color: #3c48f5;
+    background-color: #2d93f1;
     font-size: 18px;
     color: #ffffff;
     border: none;
@@ -45,8 +45,8 @@ label{
   .btn-azul:hover{
     transition: all 0.8s ease;
     background-color: #ffffff;
-    color: #3c48f5;
-    border: #3c48f5 solid 2px;
+    color: #2d93f1;
+    border: #2d93f1 solid 2px;
     cursor: pointer;
   }
   
