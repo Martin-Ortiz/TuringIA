@@ -130,6 +130,7 @@ iframe{
 .info-contacto{
     justify-content: space-between;
 }
+
 /*Pie de página*/
 .pie{
     height: auto;
@@ -140,4 +141,29 @@ iframe{
 .copyright{
     height: auto;
 }
+
+/*Nosotros*/
+.informacion{
+   width: 100%;
+}
+
+.informacion-qs img{
+   width: 100%;
+   margin: 0;
+}
+.quienes-somos{
+   width: 100%;
+}
+.quienes-somos p{
+   font-size: 20px;
+}
+/*Business Analyst*/
+.ba{
+   height: auto;
+   flex-wrap: wrap;
+}
+.ba div{
+   width: 100%;
+}
+
 }

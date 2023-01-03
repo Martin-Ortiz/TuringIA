@@ -116,3 +116,23 @@ label{
 .contenedor-info p{
     font-size: 25px;
 }
+
+/*Business Analyst*/
+.ba{
+    height: 100vh;
+    color: #000000;
+}
+.ba img{
+    width: 98%;
+}
+.ba div{
+    width: 50%;
+}
+.ba h1{
+    font-size: 30px;
+    color: #2d93f1;
+}
+.ba p{
+    width: 98%;
+    font-size: 20px;
+}
