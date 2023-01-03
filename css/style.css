@@ -136,3 +136,9 @@ label{
     width: 98%;
     font-size: 20px;
 }
+
+/*Aviso de privacidad*/
+.aviso{
+    padding: 50px;
+    font-size: 25px;
+background-color: #027cee;}

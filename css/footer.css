@@ -30,6 +30,10 @@ footer{
 .mapa-sitio label:hover{
     cursor: pointer;
 }
+.pie label a{
+    color: #ffffff;
+    text-decoration: none;
+}
 .nuestros-servicios label:hover{
     cursor: pointer;
 }
@@ -52,6 +56,9 @@ footer{
 #aviso-priv:hover{
     cursor: pointer;
     color: #b6bbf8;
+}
+.aviso-link{
+    color: #ffffff;
 }
 .copyright{
     width: 100%;
